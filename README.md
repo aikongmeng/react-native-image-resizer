@@ -11,14 +11,14 @@ Since the version version `3.0.0` this package support the new architecture out 
 It also has retrocompatibility with the old one.
 
 ```
-yarn add @bam.tech/react-native-image-resizer
+yarn add react-native-image-resizer-modify
 cd ios && pod install
 ```
 
 ### React Native <= 0.60
 
 ```
-yarn add react-native-image-resizer@1.1.0
+yarn add react-native-image-resizer-modify
 cd ios && pod install
 ```
 
@@ -33,7 +33,7 @@ Manual link information for Android: [Link](docs/android_manual_config.md)
 ## Usage example
 
 ```javascript
-import ImageResizer from '@bam.tech/react-native-image-resizer';
+import ImageResizer from 'react-native-image-resizer-modify';
 
 ImageResizer.createResizedImage(
   path,
